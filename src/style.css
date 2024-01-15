@@ -48,6 +48,7 @@ body {
   gap: 48px;
 
   height: calc(100vh - 48px - 68px - 40px);
+  
 }
 
 @media (max-width: 900px) {
@@ -59,7 +60,7 @@ body {
 }
 
 section {
-  overflow: scroll;
+  overflow: hidden;
   padding-bottom: 40px;
 }
 
